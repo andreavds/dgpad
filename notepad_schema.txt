@@ -1,0 +1,26 @@
+db.Usuarios.insertOne({
+    "username": "avds",
+    "password": "1234",
+    "nombre": "andrea",
+    "apellido": "diaz",
+    "ultima_sesion": new Date(),
+    "fecha_creacion": new Date(),
+    "notas": [],
+    "colecciones": []
+  });
+  
+db.Notas.insertOne({
+    "titulo": "título_de_la_nota",
+    "descripcion": "descripción_de_la_nota",
+    "fecha_creacion": new Date(),
+    "coleccion_id": ObjectId("coleccion_id"),
+    "usuario_id": ObjectId("usuario_id")
+  });
+  
+db.Colecciones.insertOne({
+    "nombre": "nombre_de_la_colección",
+    "descripcion": "descripción_de_la_colección",
+    "notas": [],
+    "usuario_id": ObjectId("usuario_id")
+  });
+  
