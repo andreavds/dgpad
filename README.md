@@ -1,5 +1,4 @@
 # dgpad
-el notepad
+Notepad - DGPad 
 
-guardas notas y ves notas para tu cole
-no se no tengo tiempo
+Proyecto #1 Programación de Dispositivos Móviles
